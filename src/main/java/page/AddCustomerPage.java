@@ -22,8 +22,11 @@ public class AddCustomerPage extends BasePage {
 
 	@FindBy(how = How.XPATH, using = "//*[@id=\"page-wrapper\"]/div[3]/div[1]/div/div/div/div[1]/h5")
 	WebElement ADD_CUSTOMER_HEADER_ELEMENT;
+
+
 	@FindBy(how = How.XPATH, using = "//*[@id=\"account\"]")
 	WebElement FULLNAME_ELEMENT;
+	
 	@FindBy(how = How.XPATH, using = "//*[@id=\"cid\"]")
 	WebElement COMPANY_ELEMENT;
 	@FindBy(how = How.XPATH, using = "//*[@id=\"email\"]")
